@@ -1,16 +1,51 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <form action="">
-        <div class="mb-3 mt-3">
-          <label for="text-area">Name</label>
-          <input type="text" class="form-control" id="text" placeholder="Your name here" name="text" required>
-        </div>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body">
+      <h1>Hello, welcome to my webpage</h1>
+          <p>What's your name?</p>
+          <h5 id="message" style="color: green;"></h5>
+      
+          <input type="text" id="userInput">
+          <button onclick="myFunction()">Submit</button>
+  
+          <br><br>
+           <h2>What is your gender</h2>
+          <input id="btn1" type="radio" value="Dude" name="radio"> Male </input>
+          <input id="btn2" type="radio" value="Girl" name="radio"> Female </input>
+          <br><br>
+           <button type="button" onclick="myFunc()">Submit</button>
+  
+         <script>
+             function myFunction(){
+      var userName =  document.querySelector("#userInput");
+      var greeting = document.querySelector("#message");
+      message.innerHTML = "Am happy to see you on my page " + userName.value + ", let's get started" ;
+    }
+  
+    function myFunc(){
+        var radioOne = document.getElementById("btn1");
+        var radioTwo = document.getElementById("btn2");
+  
+  
+        if(radioOne.checked==true){
+            alert("Hey " + radioOne.value);
+        }
+        else if(radioTwo.checked==true){
+            alert("Hey " +  radioTwo.value);
+        }
+        else{
+            alert("Please enter your gender");
+        }
+    }
+         </script>
+  </body>
+  </html>
 </body>
 </html>
