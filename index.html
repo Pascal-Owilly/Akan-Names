@@ -1,52 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-      <link rel="stylesheet" href="styles.css">
-  </head>
-  <body">
-      <h1>Hello, welcome to my webpage</h1>
-          <p>What's your name?</p>
-          <p>Here is your Akan name: </p>
-          <h5 id="message" style="color: green;"></h5>
-      
-          <input type="text" id="userInput">
-          <button onclick="myFunction()">Submit</button>
-  
-          <br><br>
-           <h2>What is your gender</h2>
-          <input id="btn1" type="radio" value="Dude" name="radio"> Male </input>
-          <input id="btn2" type="radio" value="Girl" name="radio"> Female </input>
-          <br><br>
-           <button type="button" onclick="myFunc()">Submit</button>
-  
-         <script>
-             function myFunction(){
-      var userName =  document.querySelector("#userInput");
-      var greeting = document.querySelector("#message");
-      message.innerHTML = "Am happy to see you on my page " + userName.value + ", let's get started" ;
-    }
-  
-    function myFunc(){
-        var radioOne = document.getElementById("btn1");
-        var radioTwo = document.getElementById("btn2");
-  
-  
-        if(radioOne.checked==true){
-            alert("Hey " + radioOne.value);
-        }
-        else if(radioTwo.checked==true){
-            alert("Hey " +  radioTwo.value);
-        }
-        else{
-            alert("Please enter your gender");
-        }
-    }
-         </script>
-  </body>
-  </html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan names</title>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body">
+
+    <nav class="navbar" style="background-color: #001635; color: white;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="images/Akan-designstyle-friday-m.png" alt="akan names"
+                        width="25%"></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About Akan</a></li>
+                <li><a href="#">Akan Community</a></li>
+                <li><a href="#">More Akan names</a> </li>
+                <li style="margin-left: 240px;"><a href="#">More links</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="section1">
+            <h1 class="akanNames"></h1>
+            Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a
+            'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+            Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and
+            Ghana.
+            A child’s name is determined by factors surrounding his or her birth. For example, the day of their birth
+            or the
+            manner in which they were born may determine which name they get irrespective of their gender.
+        </div>
+
+        <div class="article">
+            <div class="section2-a">
+                <h2> Girl names</h2>
+                As a matter of fact, it is possible to tell what led to someone’s birth, the day they were born and
+                their rank among the siblings just by their names. This is why you know your Akan name and its meaning.
+            </div>
+            <div class="section2-b">
+                <h2>Boy names</h2>
+                As a matter of fact, it is possible to tell what led to someone’s birth, the day they were born and
+                their rank among the siblings just by their names. This is why you know your Akan name and its meaning.
+            </div>
+        </div>
+    </div>
+
+
+    </body>
+
+</html>
 </body>
+
 </html>
