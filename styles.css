@@ -1,7 +1,7 @@
 body {
     color: azure;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     box-sizing: border-box;
     background-color: rgb(238, 210, 210);
 }
@@ -9,6 +9,7 @@ body {
 .navbar{
     background-color: #001635;
     color: white;
+    font-weight: 800;
 }
 
 .navbar ul{
@@ -20,7 +21,7 @@ color: white;
 .navbar li a:hover{
     background-color: transparent;
     text-decoration: underline;
-    transform: rotate(-2deg);
+    transform: rotate(0deg);
     transition: .5s;
     font-size: 25px;
     font-weight: 800;
@@ -33,7 +34,7 @@ button{
 }
 .container-fluid {
     display: flex;
-    font-size: 18px;
+    font-size: 15px;
     margin: auto;  
     margin-top: -15px;
     
@@ -44,26 +45,34 @@ flex: 1;
 margin-right: 5px;
 background-color: #001635;
 color: white;
+height: 40%;
 }
 .article{
     flex: 1;
     display: flex;
-    flex-direction: column;
+
 }
 .section2-a{
     flex: 1;
-    background-color: #000092;
-    color: white;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    
 }
 
 .section2-b{
     flex: 1;
-    background-color: rgb(184, 158, 127);
+    background-color: #f1f1f1;
+    color: black;
+    padding: 20px;
+    text-align: left;
 }
 blockquote {
-  text-shadow: 2px 2px blue;
+  text-shadow: 1px 1px rgb(0, 0, 12);
   text-align: left;
   float: right;
+  height: 60%;
 }
 input{
     background-color: #000092;
@@ -100,4 +109,12 @@ input{
     text-align: center;
     margin-right: 200px;
     color: white;
+}
+
+.img1{
+    float: left;
+    clear: both;
+}
+.img2{
+    float: left;
 }
