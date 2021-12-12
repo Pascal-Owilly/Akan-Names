@@ -76,3 +76,28 @@ input{
      width: 60%; */
      margin-left: 10px;
 } 
+
+#btn1{
+    background-color: #001635;
+    font-weight: 800;
+    width: 100px;
+    text-align: center;
+     margin-right: 150px; 
+    color: white;
+}
+#btn2{
+    background-color: #001635;
+    font-weight: 800;
+    width: 100px;
+    text-align: center;
+    margin-right: 200px;
+    color: white;
+}
+#btn3{
+    background-color: #001635;
+    font-weight: 800;
+    width: 100px;
+    text-align: center;
+    margin-right: 200px;
+    color: white;
+}
