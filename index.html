@@ -83,21 +83,48 @@
 
     <hr>
 
-    <div class="container-fluid" id="container">
-        <div class="jumbotron">
-            <div class="form">
-                <p>What's your name?</p>
-                <h5 id="message"
-                    style="color: #fff;background-color: #001635;width: 30%;text-align: center;margin-left: 270px;font-weight: 800;font-family: Verdana;border-radius: 20px 20px 20px;">
-                </h5>
+    <div class="container-fluid" id="container" style="width: 80%;">
+            <div class="form" style="margin-left: 100px;">
+            
+               
                 <input type="text" id="userInput" placeholder="Enter your name here">
                 <button onclick="myFunction()" id="btn1">Submit</button>
+                <h5 id="message"
+                style="color: #fff;background-color: #001635;width: 60%;text-align: center;margin-left: 20px;font-weight: 800;font-family: Verdana;border-radius: 20px 20px 20px;">
+            </h5>
             </div>
-        </div>
+<br><br>
+        <form name="akanName" onsubmit="displayAkanName();">
+            <div>
+                <label for="number">Year</label>
+                <input type="number" id="year" placeholder="Example 1996" name="year">
+            
+            <div><br>
+                <label for="month">Month</label>
+                <input type="number" id="month" placeholder="Example 03" name="month">
+            </div><br>
+            <div>
+                <label for="date">Date</label>
+                <input type="number" id="date" placeholder="Example 21" name="date">
+            </div>
+            
+                <label class="" for="gender">Gender</label><br>
+                <div>
+                    <label>
+                        <input type="radio" name="gender" id="male"> Male
+                    </label>
+                </div>
+                
+                    <label>
+                        <input type="radio" name="gender" id="female"> Female
+                    </label>
+                </div>
+            
+            <button id="btn" type="submit" onclick="obtainName();">Display Name</button>
+            <br>
+        </form> 
     </div>
-
-    <br><br>
-    
+    </div>
 
 
     <footer style="width: 100%;background-color: #001635;">
@@ -132,12 +159,7 @@
 
 
 
-    <!-- // function myFunction() {
-        //     var userName = document.querySelector("#userInput");
-        //     var greeting = document.querySelector("#message");
-        //     message.innerHTML = "<i>" + "You are almost there " + "<h2> " + userName.value + "</h1> " +
-        //         " Choose your gender below";
-        // } -->
+     
 
     <script src="script.js">
 
