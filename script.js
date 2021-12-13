@@ -2,10 +2,10 @@
 function myFunction() {
   var userName = document.querySelector("#userInput");
           var greeting = document.querySelector("#message");
-           message.innerHTML = "<i>" + "You are almost there " + "<h2> " + userName.value + "</h1> " +
-          " Choose your gender below";
+           message.innerHTML = "<i>" + "You are almost there " +  userName.value +
+          " enter your deatails below";
        }
-//end visitors form
+//end visitors form 
 
 
 

@@ -77,8 +77,8 @@ blockquote {
 
 }
 input{
-    background-color: #000092;
-    color: white;
+    background-color: #fff;
+    color: #001635;
     font-family: verdana;
     font-weight: 800;
 }
@@ -98,7 +98,7 @@ input{
      margin-right: 150px; 
     color: white;
     width: 200px;
-    margin-right: 413px;
+    margin-right: 411px;
 }
 #btn2{
     background-color: #white;
