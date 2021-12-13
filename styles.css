@@ -5,6 +5,17 @@ body {
     box-sizing: border-box;
     background-color: rgb(238, 210, 210);
 }
+nav {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav li {
+    font-size: 21px;
+    align-items: center;
+    margin-top: 20px;
+}
 
 .navbar{
     background-color: #001635;
